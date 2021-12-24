@@ -1,0 +1,328 @@
+body{
+    background-color: darkslategrey;
+}
+
+#api-data{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 21px;
+}
+
+
+
+.api-data-style{
+    background-color: whitesmoke;
+    height: fit-content;
+    width: fit-content;
+    margin: 11px;
+    border-radius: 7px 7px 7px;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+
+.search-api-data-style{
+    background-color: whitesmoke;
+    height: fit-content;
+    width: fit-content;
+    margin: 11px;
+    border-radius: 7px 7px 7px;
+    box-shadow: 3px 3px 3px 3px grey
+}
+
+.row5{
+    
+}
+
+.div1{
+    background-color: darkcyan;
+    height: 103px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+.div2{
+    display: grid;
+    grid-template-columns: 189px 95px 95px 95px 95px 270px 111px;
+    align-items: center;
+}
+
+.div3{
+    font-size: 35px;
+    font-weight: bold;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.div4{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.row2{
+    background-color: darkolivegreen;
+    height: auto;
+}
+
+.row3{
+    background-color: whitesmoke;
+    height: auto;
+}
+
+.row4{
+    background-color: whitesmoke;
+    height: auto;
+}
+
+a.a1:link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a1:visited{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a1:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
+a.a2:link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a2:visited{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a2:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
+a.a3:link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a3:visited{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a3:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
+a.a4:link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a4:visited{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a4:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
+a.a5:link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a5:visited{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a.a5:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
+/*Start Log-in*/
+a.a6:link{
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: seagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+}
+
+a.a6:visited{
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: seagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+}
+
+a.a6:hover{
+    background-color: rgb(118, 180, 145);
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+}
+/*Finish log-in*/
+
+
+
+@media screen and (max-width: 600px) {
+
+    #api-data{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    #search-api-data{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row-gap: 21px;
+        justify-content: center;
+    }
+
+    .div1{
+        font-size: 25px;
+        font-weight: bold;
+        height: 83px;
+        text-align: center;
+    }
+
+    .div2{
+        /*flex oo kora jai*/
+        /*display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;*/
+        /*grid->*/
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        grid-row-gap: 20px;
+    }
+    .div3{
+        font-size: 30px;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .row2{
+        height: fit-content;
+    }
+    
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+
+    #api-data{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .div2{
+        /*flex oo kora jai*/
+        /*display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;*/
+        /*grid->*/
+        display: grid;
+        grid-template-columns: 90px 60px 60px 60px 60px 110px 111px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+
+    #api-data{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .div2{
+        /*flex oo kora jai*/
+        /*display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;*/
+        /*grid->*/
+        display: grid;
+        grid-template-columns: 130px 80px 80px 80px 80px 160px 111px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px){
+
+    .div2{
+        /*flex oo kora jai*/
+        /*display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;*/
+        /*grid->*/
+        display: grid;
+        grid-template-columns: 150px 90px 90px 90px 90px 220px 111px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}
